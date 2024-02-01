@@ -1,9 +1,14 @@
 import myImage5 from "../Images/Catei1.jpg";
+import myImage6 from "../Images/funnydogo.jpg"
 
 const Homepage = () => {
   return (
     <>
+  
       <div className="homepage-container">
+      <div className="funnydogo">
+        <img src={myImage6} alt="" />
+      </div>
         <img src={myImage5} alt="" className="dog-homepage" />
         <h1 className="homepage-title">Happy Little Paws</h1>
         <p className="homepage-paragraf1">Cine suntem noi?</p>

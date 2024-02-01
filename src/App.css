@@ -43,7 +43,8 @@ body {
   width: 100%;
   font-weight: bold;
   font-size: 1.5em;
-  color: rgb(50, 122, 183);
+  color: rgb(236, 150, 157);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
   font-family: "Comic Sans MS", cursive;
 }
 
@@ -51,7 +52,7 @@ body {
   text-align: center;
   width: 100%;
   font-weight: normal;
-  color: rgb(223, 114, 123);
+  color: rgb(48, 146, 184);
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
   margin: 20px auto;
   align-items: center;
@@ -133,7 +134,7 @@ h1 {
 
 .homepage-title {
   font-size: 6em;
-  color: rgb(50, 122, 183);
+  color: rgb(48, 146, 184);
   font-family: "Comic Sans MS", cursive;
   font-weight: bold;
   text-align: center;
@@ -158,13 +159,13 @@ h1 {
 
 .dog-api-image {
   width: 200px; /* sau orice alte dimensiuni dorite */
-  border: 2px solid rgb(50, 122, 183);
+  border: 2px solid rgb(48, 146, 184);
   border-radius: 5px;
   margin-left: 20px !important; /* spațiere la stânga imaginii */
 }
 
 .dog-homepage {
-  border: 2px solid rgb(50, 122, 183);
+  border: 2px solid rgb(48, 146, 184);
   border-radius: 5px;
 }
 
@@ -217,7 +218,7 @@ progress {
 
 .page-title {
   font-size: 4em;
-  color: rgb(50, 122, 183);
+  color: rgb(48, 146, 184);
   font-family: "Comic Sans MS", cursive;
   font-weight: bold;
   text-align: center;
@@ -225,4 +226,27 @@ progress {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
   animation: bounce 1s ease-in-out infinite, fadeIn 1s ease-in-out,
     rotate 1s linear infinite;
+}
+
+.logo {
+  position: fixed;
+  top: -60px;
+  left: 0;
+  margin: 10px;
+  z-index: -1000;
+}
+
+.logo img {
+  max-width: 200px;
+  height: auto;
+  display: block;
+}
+
+.funnydogo img {
+  position: fixed;
+  top: 50px;
+  right: 0px;
+
+  z-index: -1000;
+  max-width: 200px;
 }

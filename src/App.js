@@ -11,6 +11,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import DogCard from "./Components/Card/DogCard";
 import Contact from "./Pages/Contact";
 import { DogApi } from "./Pages/DogApi";
+import logo from "./Images/logo_transparent.png";
 
 const router = createBrowserRouter([
   {
@@ -42,6 +43,9 @@ function App() {
     <>
       <Navbar />
       <main>
+      <div className="logo">
+        <img src={logo} alt="" />
+      </div>
         <RouterProvider router={router} />
         <Router>
           <Routes>
