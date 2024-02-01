@@ -1,0 +1,44 @@
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: rgb(50, 122, 183);
+  margin-top: 10px;
+}
+
+nav ul li {
+  margin: 0 20px;
+  font-family: "Comic Sans MS", cursive;
+  text-shadow: 1px 1px 2px rgba(33, 32, 32, 0.2);
+  color: rgb(50, 122, 183);
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(50, 122, 183);
+}
+
+button {
+  background-color: rgb(163, 199, 199); /* culoarea de fundal transparentă */
+  color: white; /* culoarea textului */
+  border: none;
+  padding: 10px 20px; /* spatiere intre continutul butonului si marginile interioare ale butonului */
+  text-align: center; /* aliniere text in centru */
+  text-decoration: none; /* elimină sublinierea implicită a link-urilor */
+  display: inline-block; /* asigura ca butoanele sa aiba aceeasi inaltime */
+  font-size: 16px; /* dimensiunea fontului */
+  font-weight: bold;
+  cursor: pointer; /* cursor de tip pointer la hover */
+  border-radius: 10px; /* colturile rotunjite ale butonului */
+  margin: 5px; /* margini intre butoane */
+  transition: background-color 0.3s ease; /* animatie la schimbarea culorii de fundal la hover */
+}
+
+button:hover {
+  background-color: rgb(
+    157,
+    183,
+    183
+  ); /* culoarea de fundal transparentă la hover */
+}

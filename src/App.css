@@ -1,0 +1,228 @@
+/* main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  display: inline-block;
+  width: 300px;
+  align-items: center;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  height: 100vh;
+  margin-top: 20px;
+}
+p {
+  font: caption;
+  color: rgb(87, 87, 87);
+} */
+
+body {
+  background-color: rgb(163, 199, 199) !important;
+}
+
+.about-body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.homepage-paragraf1 {
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: rgb(50, 122, 183);
+  font-family: "Comic Sans MS", cursive;
+}
+
+.homepage-paragraf2 {
+  text-align: center;
+  width: 100%;
+  font-weight: normal;
+  color: rgb(223, 114, 123);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.homepage-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  height: 100vh;
+  margin-top: 20px;
+}
+
+.dog-img {
+  max-width: 500px;
+  border: 4px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.dog-name {
+  font-size: 3em;
+  color: rgb(236, 150, 157);
+  font-family: "Comic Sans MS", cursive;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px auto; /* Auto pentru aliniere centrală orizontală și margin pentru aliniere centrală verticală */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  display: inline-block; /* Asigură că elementul nu ocupă întreaga lățime */
+}
+
+.dog-details {
+  font-size: 1.2em; /* Mărimea fontului */
+  color: rgb(100, 100, 100); /* Culoare mai închisă pentru contrast */
+  font-family: "Arial", sans-serif; /* Font */
+  font-weight: normal; /* Fără bold pentru un aspect mai ușor */
+  text-align: center; /* Aliniere text */
+  margin-bottom: 30px; /* Spațiu sub text */
+  line-height: 1.5; /* Înălțimea liniei pentru o citire mai ușoară */
+}
+
+.dog-container {
+  text-align: center;
+}
+
+.contact-img-outer-container {
+  max-width: 100%; /* Va ocupa întreaga lățime a paginii */
+  overflow: hidden; /* Ascunde orice conținut care depășește lățimea */
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.contact-img-container {
+  max-width: 600px; /* sau orice valoare dorești pentru container */
+  padding: 0 20px;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.contact-img {
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contact-img img {
+  max-width: 100%;
+  height: auto;
+  width: 500px;
+}
+
+.homepage-title {
+  font-size: 6em;
+  color: rgb(50, 122, 183);
+  font-family: "Comic Sans MS", cursive;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px auto;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  animation: bounce 1s ease-in-out infinite, fadeIn 1s ease-in-out,
+    rotate 1s linear infinite;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.scale {
+  animation: scale 1s ease-in-out infinite;
+}
+
+.dog-api-image {
+  width: 200px; /* sau orice alte dimensiuni dorite */
+  border: 2px solid rgb(50, 122, 183);
+  border-radius: 5px;
+  margin-left: 20px !important; /* spațiere la stânga imaginii */
+}
+
+.dog-homepage {
+  border: 2px solid rgb(50, 122, 183);
+  border-radius: 5px;
+}
+
+.dog-characteristics {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.dog-characteristics img {
+  max-width: 700px; /* sau o valoare potrivită pentru lățimea imaginii */
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.characteristics-container {
+  flex: -1 1; /* Ocupă spațiul disponibil pentru a împinge etichetele și barele de progres în dreapta */
+}
+
+.characteristics-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.characteristics-list li {
+  margin-bottom: 10px; /* Spațiu între fiecare caracteristică */
+}
+
+label {
+  display: inline;
+  width: 150px; /* Lățimea etichetelor, poate fi ajustată după nevoie */
+  margin-right: 10px;
+}
+
+progress {
+  width: 100%;
+}
+
+.dog-name-api {
+  font-size: 2em;
+  color: rgb(236, 150, 157);
+  font-family: "Comic Sans MS", cursive;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px auto; /* Auto pentru aliniere centrală orizontală și margin pentru aliniere centrală verticală */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  display: inline-block; /* Asigură că elementul nu ocupă întreaga lățime */
+}
+
+.page-title {
+  font-size: 4em;
+  color: rgb(50, 122, 183);
+  font-family: "Comic Sans MS", cursive;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px auto;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  animation: bounce 1s ease-in-out infinite, fadeIn 1s ease-in-out,
+    rotate 1s linear infinite;
+}
