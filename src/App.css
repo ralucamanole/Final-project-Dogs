@@ -234,6 +234,7 @@ progress {
   left: 0;
   margin: 10px;
   z-index: -1000;
+  height: 60px;
 }
 
 .logo img {
@@ -246,7 +247,26 @@ progress {
   position: fixed;
   top: 50px;
   right: 0px;
-
   z-index: -1000;
   max-width: 200px;
+}
+
+@media (max-width: 1100px) {
+  .homepage-paragraf2 {
+    padding: 20px;
+  }
+  .funnydogo img {
+    display: block;
+    float: right;
+    clear: both;
+    z-index: 1000;
+  }
+
+  .logo img {
+    display: block;
+    float: right;
+    clear: both;
+    z-index: 1000;
+    position: absolute;
+  }
 }

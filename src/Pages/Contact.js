@@ -1,9 +1,8 @@
-import myImage6 from "../Images/cateiadoptati1.jpg"
+import myImage6 from "../Images/cateiadoptati1.jpg";
 import myImage7 from "../Images/cateiadoptati2.jpg";
 import myImage8 from "../Images/cateiadoptati3.jpg";
 import myImage9 from "../Images/cateiadoptati4.jpg";
 import myImage10 from "../Images/cateiadoptati5.jpg";
-
 
 const Contact = () => {
   return (

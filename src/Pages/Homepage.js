@@ -1,5 +1,5 @@
 import myImage5 from "../Images/Catei1.jpg";
-import myImage6 from "../Images/funnydogo.jpg"
+import myImage6 from "../Images/funnydogo.png"
 
 const Homepage = () => {
   return (

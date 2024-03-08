@@ -4,14 +4,15 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Homepage from "./Pages/Homepage";
 import About from "./Pages/About";
 import NotFound from "./Pages/NotFound";
-import Navbar from "./Components/Navbar/Navbar";
+import NavbarBoot from "./Components/Navbar/NavbarBoot";
 import Formular from "./Pages/Formular";
 import { Route, Routes } from "react-router-dom";
 import { BrowserRouter as Router } from "react-router-dom";
 import DogCard from "./Components/Card/DogCard";
 import Contact from "./Pages/Contact";
 import { DogApi } from "./Pages/DogApi";
-import logo from "./Images/logo_transparent.png";
+// import logo from "./Images/logo_transparent.png";
+
 
 const router = createBrowserRouter([
   {
@@ -41,11 +42,11 @@ const router = createBrowserRouter([
 function App() {
   return (
     <>
-      <Navbar />
+      <NavbarBoot />
       <main>
-      <div className="logo">
+        {/* <div className="logo">
         <img src={logo} alt="" />
-      </div>
+      </div> */}
         <RouterProvider router={router} />
         <Router>
           <Routes>

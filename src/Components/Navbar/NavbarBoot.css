@@ -1,0 +1,27 @@
+Nav.link {
+  background-color: black;
+}
+
+.custom-link {
+  color: rgb(48, 146, 184) !important;
+  border: none !important;
+  padding: 10px 20px !important; /* spatiere intre continutul butonului si marginile interioare ale butonului */
+  text-align: center !important; /* aliniere text in centru */
+  text-decoration: none !important; /* elimină sublinierea implicită a link-urilor */
+  display: inline-block !important; /* asigura ca butoanele sa aiba aceeasi inaltime */
+  font-size: 18px !important; /* dimensiunea fontului */
+  font-weight: bold !important;
+  cursor: pointer !important; /* cursor de tip pointer la hover */
+  border-radius: 10px !important; /* colturile rotunjite ale butonului */
+  margin: 5px !important; /* margini intre butoane */
+  transition: background-color 0.3s ease !important;
+  font-family: "Comic Sans MS", cursive;
+}
+
+.custom-link:hover {
+  background-color: rgb(
+    157,
+    183,
+    183
+  ); /* culoarea de fundal transparentă la hover */
+}
